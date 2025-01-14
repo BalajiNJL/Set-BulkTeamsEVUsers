@@ -2,7 +2,7 @@
 1/13/2025 - First commit
 -----------------------------------------------------------------
 
-_**Disclaimer:** This script is provided ‘as-is’ without any warranty or support. The Graph API endpoints in this script are marked as Beta by Microsoft. Use of this script is at your own risk and I accept no responsibility for any damage caused._
+_*Disclaimer:* This script is provided ‘as-is’ without any warranty or support. Use of this script is at your own risk and I accept no responsibility for any damage caused._
 ---------------------------------------------------------------------------
 
 Script to bulk enable Teams Phone System (EV) users
