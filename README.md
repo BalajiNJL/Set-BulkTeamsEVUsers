@@ -23,19 +23,13 @@ This script is designed to bulk enable Teams Phone System (Enterprise Voice) for
 - **-CSVFilePath**: "c:\path_to_file\TeamsEVUsersTemplate.csv"
 ## Usage
 
-1. Prepare a CSV file with the following columns: 
+1. Prepare a CSV file with the following columns: (refer to the sample csv file)
    - `UPN`: User Principal Name
    - `PhoneNumber`: Direct phone number with extension if applicable
    - `OnlineVoiceRoutingPolicy`: Name of the voice routing policy
    - `Privateline`: (Optional) Private line number
 
-2. Update the script variables to point to your CSV file path:
-
-   ```powershell
-   $CSVFilePath = "c:\path_to_file\TeamsEVUsersTemplate.csv"
-   ```
-
-3. Run the script with PowerShell:
+2. Run the script with PowerShell:
 
    ```powershell
    .\Set-BulkTeamsEVUsers.ps1 -fqdn example.onmicrosoft.com -csvfilepath "c:\path_to_file\TeamsEVUsersTemplate.csv"
