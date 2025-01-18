@@ -32,7 +32,7 @@ This script is designed to bulk enable Teams Phone System (Enterprise Voice) for
 2. Run the script with PowerShell:
 
    ```powershell
-   .\Set-BulkTeamsEVUsers.ps1 -fqdn example.onmicrosoft.com -csvfilepath "c:\path_to_file\TeamsEVUsersTemplate.csv"
+   .\Set-BulkTeamsEVUsers.ps1 -msfqdn example.onmicrosoft.com -csvfilepath "c:\path_to_file\TeamsEVUsersTemplate.csv"
    ```
 
 ## Script Workflow
